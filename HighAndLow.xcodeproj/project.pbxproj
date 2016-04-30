@@ -287,6 +287,7 @@
 				B664D4D21CD2C0DA0060A0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
