@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61733501CD9203D005A6A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B664D4C81CD2C0DA0060A0F7 /* Assets.xcassets */; };
 		B664D4C21CD2C0D90060A0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4C11CD2C0D90060A0F7 /* AppDelegate.swift */; };
 		B664D4C41CD2C0DA0060A0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4C31CD2C0DA0060A0F7 /* ViewController.swift */; };
 		B664D4C71CD2C0DA0060A0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D4C51CD2C0DA0060A0F7 /* Main.storyboard */; };
-		B664D4C91CD2C0DA0060A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B664D4C81CD2C0DA0060A0F7 /* Assets.xcassets */; };
 		B664D4CC1CD2C0DA0060A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D4CA1CD2C0DA0060A0F7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B664D4CC1CD2C0DA0060A0F7 /* LaunchScreen.storyboard in Resources */,
-				B664D4C91CD2C0DA0060A0F7 /* Assets.xcassets in Resources */,
+				B61733501CD9203D005A6A9B /* Assets.xcassets in Resources */,
 				B664D4C71CD2C0DA0060A0F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +250,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HighAndLow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KojiTokitsu.HighAndLow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,10 +265,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HighAndLow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KojiTokitsu.HighAndLow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
